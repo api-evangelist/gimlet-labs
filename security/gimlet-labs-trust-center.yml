@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.gimletlabs.ai
+certifications_page: https://gimletlabs.ai/legal/security/certifications
+certifications:
+- name: SOC 2 Type 2
+  status: achieved
+  note: Report available on request via legal@gimletlabs.ai
+- name: ISO 27001
+  status: in-progress
+security_overview: https://gimletlabs.ai/legal/security/overview
+contact: legal@gimletlabs.ai
+evidence:
+- source: https://trust.gimletlabs.ai
+  keywords:
+  - trust center
+- source: https://gimletlabs.ai/legal/security/certifications
+  keywords:
+  - soc 2 type 2
+  - iso 27001

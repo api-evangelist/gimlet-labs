@@ -1,0 +1,32 @@
+# Gimlet Labs
+
+> Gimlet Labs is an applied research lab building high-performance AI infrastructure — inference systems, schedulers, and compilers optimized for agentic and multimodal AI workloads across heterogeneous hardware. As of mid-2026 the developer surface is largely pre-launch (waitlist / gated docs); no public OpenAPI, SDKs, or MCP server were found. This file is generated from the API Evangelist catalog entry, not a provider-published llms.txt.
+
+## Products
+
+- [Gimlet Cloud](https://gimlet.ai): Agent-native, serverless managed inference cloud for deploying single- and multi-agent workloads that combine LLMs, multimodal, diffusion models, code sandboxes, web search, and custom data sources, with automatic scaling and heterogeneous hardware optimization.
+- [kforge](https://kforge.ai): Autonomous kernel generation for PyTorch — generates optimized low-level kernels directly from PyTorch across CUDA, ROCm, and Metal (NVIDIA, AMD, Intel, Apple) without manual kernel writing.
+
+## Company
+
+- [Gimlet Labs](https://gimletlabs.ai): Applied research lab home.
+- [Blog](https://gimletlabs.ai/blog): Research and product writing.
+- [Documentation](https://gimletlabs.ai/docs): Developer documentation (currently access-gated).
+- [Contact](https://gimletlabs.ai/contact_us): Contact and support.
+- [Careers](https://gimletlabs.ai/join_us): Open roles.
+- [GitHub](https://github.com/gimletlabs): Open-source repositories (compiler/inference forks + research).
+
+## Security & Trust
+
+- [Trust Center](https://trust.gimletlabs.ai): Live trust center.
+- [Certifications](https://gimletlabs.ai/legal/security/certifications): SOC 2 Type 2 (achieved); ISO 27001 (in progress).
+- [Security Response](https://gimletlabs.ai/legal/security/response): Responsible disclosure — security@gimletlabs.ai.
+- [Security Overview](https://gimletlabs.ai/legal/security/overview): Program summary.
+
+## Legal
+
+- [Terms of Service](https://gimletlabs.ai/legal/terms_and_conditions/terms_of_service)
+- [Privacy Policy](https://gimletlabs.ai/legal/terms_and_conditions/privacy_policy)
+- [Acceptable Use Policy](https://gimletlabs.ai/legal/terms_and_conditions/acceptable_use_policy)
+- [Data Processing Addendum](https://gimletlabs.ai/legal/terms_and_conditions/dpa)
+- [Subprocessors](https://gimletlabs.ai/legal/terms_and_conditions/subprocessors)

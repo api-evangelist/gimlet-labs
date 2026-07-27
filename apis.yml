@@ -1,7 +1,22 @@
 aid: gimlet-labs
 name: Gimlet Labs
-description: Gimlet Labs is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gimlet Labs is an applied research lab building high-performance AI
+  infrastructure — inference systems, schedulers, and compilers optimized for
+  agentic and multimodal AI workloads across heterogeneous hardware. Its
+  products include Gimlet Cloud, an agent-native serverless managed inference
+  cloud for deploying single- and multi-agent systems that combine LLMs,
+  multimodal and diffusion models, code sandboxes, web search, and custom data
+  sources with automatic scaling; and kforge, a tool that autonomously generates
+  optimized low-level PyTorch kernels across CUDA, ROCm, and Metal backends
+  (NVIDIA, AMD, Intel, Apple) without manual kernel writing. The lab's research
+  spans autonomous kernel generation, SLA-aware scheduling of multi-stage agent
+  workloads across datacenters, edge/cloud workload partitioning, an MLIR-based
+  universal AI compiler, headless DPU/accelerator hardware architectures, and
+  cost-aware optimization for multitenant environments. Gimlet Labs is backed by
+  Menlo Ventures. As of mid-2026 the developer surface is largely pre-launch,
+  with a waitlist and access-gated documentation; no public OpenAPI, SDKs, or
+  MCP server were found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/gimlet-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +24,31 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://gimletlabs.ai/og-image.png
 tags:
 - Company
+- Artificial Intelligence
+- AI Infrastructure
+- Machine Learning
+- Inference
+- Agents
+- Compilers
+- GPU
+- Serverless
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +58,33 @@ maintainers:
 common:
 - type: Website
   url: https://gimletlabs.ai
+- type: Documentation
+  url: https://gimletlabs.ai/docs
+- type: Blog
+  url: https://gimletlabs.ai/blog
+- type: Support
+  url: https://gimletlabs.ai/contact_us
+- type: GitHubOrganization
+  url: https://github.com/gimletlabs
+- type: TermsOfService
+  url: https://gimletlabs.ai/legal/terms_and_conditions/terms_of_service
+- type: PrivacyPolicy
+  url: https://gimletlabs.ai/legal/terms_and_conditions/privacy_policy
+- type: TrustCenter
+  url: https://trust.gimletlabs.ai
+  x-artifact: security/gimlet-labs-trust-center.yml
+- type: Compliance
+  url: https://gimletlabs.ai/legal/security/certifications
+- type: VulnerabilityDisclosure
+  url: security/gimlet-labs-vulnerability-disclosure.yml
+- type: Security
+  url: https://gimletlabs.ai/legal/security/response
+- type: DomainSecurity
+  url: security/gimlet-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/gimlet-labs-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
