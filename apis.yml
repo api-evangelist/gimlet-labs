@@ -54,7 +54,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 - Inference
 - Agents
 - Compilers
@@ -70,6 +70,7 @@ tags_raw:
 - Compilers
 - GPU
 - Serverless
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
