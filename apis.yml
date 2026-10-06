@@ -48,7 +48,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://gimletlabs.ai/og-image.png
 tags:
 - Company
@@ -78,6 +78,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://gimletlabs.ai/blog/feed.xml
+  type: BlogRSS
 - type: Website
   url: https://gimletlabs.ai
 - type: Documentation
